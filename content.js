@@ -36,12 +36,12 @@ async function refreshSettings() {
 
 const SIMPLE_REGEX = /#(?:[0-9a-f]{3,8})\b|\b[a-zA-Z-]+\b/gi;
 const IGNORED_TAGS = ["SCRIPT", "STYLE", "TEXTAREA", "INPUT"];
-const CLASS_HIGHLIGHT = "ext-highlight-text-color-avasay-sayava__hl";
-const CLASS_HOVER = "ext-highlight-text-color-avasay-sayava__hl--hover";
-const CLASS_TOOLTIP = "ext-highlight-text-color-avasay-sayava__tt";
-const DATA_HIGHLIGHTED_ATTR = "data-ext-highlight-text-color-avasay-sayava-highlighted";
+const CLASS_HIGHLIGHT = "ext-css-color-highlighter-avasay-sayava__hl";
+const CLASS_HOVER = "ext-css-color-highlighter-avasay-sayava__hl--hover";
+const CLASS_TOOLTIP = "ext-css-color-highlighter-avasay-sayava__tt";
+const DATA_HIGHLIGHTED_ATTR = "data-ext-css-color-highlighter-avasay-sayava-highlighted";
 const OWNED_SELECTOR =
-  '.ext-highlight-text-color-avasay-sayava__hl, .ext-highlight-text-color-avasay-sayava__tt, [data-ext-highlight-text-color-avasay-sayava-highlighted="1"]';
+  '.ext-css-color-highlighter-avasay-sayava__hl, .ext-css-color-highlighter-avasay-sayava__tt, [data-ext-css-color-highlighter-avasay-sayava-highlighted="1"]';
 
 function isInsideOwnedNode(node) {
   const el = node?.nodeType === Node.ELEMENT_NODE ? node : node?.parentElement;

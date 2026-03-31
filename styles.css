@@ -1,4 +1,4 @@
-.ext-highlight-text-color-avasay-sayava__hl {
+.ext-css-color-highlighter-avasay-sayava__hl {
   padding: 0 2px;
   border-radius: 4px;
   font-weight: 500;
@@ -6,11 +6,11 @@
   pointer-events: auto;
 }
 
-.ext-highlight-text-color-avasay-sayava__hl.ext-highlight-text-color-avasay-sayava__hl--hover {
+.ext-css-color-highlighter-avasay-sayava__hl.ext-css-color-highlighter-avasay-sayava__hl--hover {
   padding: 0;
 }
 
-.ext-highlight-text-color-avasay-sayava__tt {
+.ext-css-color-highlighter-avasay-sayava__tt {
   position: absolute;
   z-index: 999999;
   padding: 6px 10px;
