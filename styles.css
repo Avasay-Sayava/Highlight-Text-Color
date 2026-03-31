@@ -1,0 +1,21 @@
+.ext-9f3d0f0a-4f87-4b19-bf2b-98b6f9d2a4c1__hl {
+  padding: 0 2px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: inherit;
+  pointer-events: auto;
+}
+
+.ext-9f3d0f0a-4f87-4b19-bf2b-98b6f9d2a4c1__hl.ext-9f3d0f0a-4f87-4b19-bf2b-98b6f9d2a4c1__hl--hover {
+  padding: 0;
+}
+
+.ext-9f3d0f0a-4f87-4b19-bf2b-98b6f9d2a4c1__tt {
+  position: absolute;
+  z-index: 999999;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
