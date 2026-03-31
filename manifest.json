@@ -4,6 +4,14 @@
   "version": "2.0",
   "description": "Highlights all CSS colors with smart parsing",
   "permissions": ["storage", "activeTab", "<all_urls>"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "highlight-text-color@avasay-sayava",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
   "browser_action": {
     "default_title": "Toggle Color Highlighter",
     "default_popup": "popup.html"
