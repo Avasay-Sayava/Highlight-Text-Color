@@ -6,7 +6,7 @@
   "permissions": ["storage", "activeTab", "<all_urls>"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "highlight-text-color@avasay-sayava",
+      "id": "css-color-highlighter@avasay-sayava",
       "data_collection_permissions": {
         "required": ["none"]
       }
